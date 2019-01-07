@@ -1,0 +1,34 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+#heading-2 {
+    color: green;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+#background-ele {
+    height: 500px;
+    width: 100%;
+
+    background-color: red;
+    background-image: url("http://www.imgworlds.com/wp-content/uploads/2015/12/18-CONTACTUS-HEADER.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-colorred {
+    height: 1000px;
+    width: 100%;
+
+    background-color: red;
+}

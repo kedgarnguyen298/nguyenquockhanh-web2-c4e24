@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to my Website</title>
+</head>
+<body>
+    <h2>Đăng ký tài khoản</h2>
+    <form action="#" method="POST">
+        Tên đầy đủ: <br>
+        <input type="text" placeholder="Huỳnh Tuấn Anh" name="fullname"><br style="line-height:200%">
+        
+        Email: <br>
+        <input type="email" placeholder="hta@gmail.com" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br style="line-height:200%" required pattern=>
+        
+        Tên đăng nhập: <br >
+        <input type="text" name="username"><br style="line-height:200%">
+        
+        Mật khẩu: <br>
+        <input type="password" name="psw"><br style="line-height:200%"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+        
+        <input type="submit" value="Submit"><br>
+    </form>
+</body>
+</html>
